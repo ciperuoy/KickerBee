@@ -1,3 +1,5 @@
-## Killer Bee
+## Kicker Bee
 
-Kills you when the bees catch up to you
+Kicks you from the lobby when the bees catch up to you
+
+(build the mod yourself im lazy)
