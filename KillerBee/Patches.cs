@@ -12,7 +12,7 @@ namespace KillerBee
         {
             if (__instance.currentState == AngryBeeSwarm.ChaseState.Grabbing && __instance.targetPlayer.UserId == PhotonNetwork.LocalPlayer.UserId)
             {
-                Application.Quit();
+                NetworkSystem.Instance.ReturnToSinglePlayer();
             }
         }
     }
